@@ -1,0 +1,237 @@
+Drive already mounted at /content/drive; to attempt to forcibly remount, call drive.mount("/content/drive", force_remount=True).
+Using device: cuda
+
+Preparing dataset...
+
+Loading saved model...
+
+Evaluating model...
+
+===== TEST RESULTS =====
+Accuracy : 0.8141
+Precision: 0.8132 (macro)
+Recall   : 0.8125 (macro)
+F1-score : 0.7908 (macro)
+
+Detailed Classification Report:
+
+                                    precision    recall  f1-score   support
+
+        001.Black_footed_Albatross     0.0000    0.0000    0.0000         0
+              002.Laysan_Albatross     1.0000    1.0000    1.0000         2
+               003.Sooty_Albatross     1.0000    1.0000    1.0000         2
+             004.Groove_billed_Ani     1.0000    1.0000    1.0000         2
+                005.Crested_Auklet     1.0000    1.0000    1.0000         2
+                  006.Least_Auklet     1.0000    1.0000    1.0000         2
+               007.Parakeet_Auklet     1.0000    1.0000    1.0000         2
+             008.Rhinoceros_Auklet     1.0000    1.0000    1.0000         2
+              009.Brewer_Blackbird     0.5000    1.0000    0.6667         2
+          010.Red_winged_Blackbird     1.0000    1.0000    1.0000         2
+               011.Rusty_Blackbird     1.0000    1.0000    1.0000         2
+       012.Yellow_headed_Blackbird     1.0000    1.0000    1.0000         2
+                      013.Bobolink     1.0000    1.0000    1.0000         2
+                014.Indigo_Bunting     0.6667    1.0000    0.8000         2
+                015.Lazuli_Bunting     1.0000    1.0000    1.0000         2
+               016.Painted_Bunting     1.0000    1.0000    1.0000         2
+                      017.Cardinal     1.0000    1.0000    1.0000         2
+               018.Spotted_Catbird     1.0000    1.0000    1.0000         2
+                  019.Gray_Catbird     1.0000    1.0000    1.0000         2
+          020.Yellow_breasted_Chat     1.0000    0.5000    0.6667         2
+                021.Eastern_Towhee     1.0000    1.0000    1.0000         2
+              022.Chuck_will_Widow     1.0000    0.5000    0.6667         2
+              023.Brandt_Cormorant     1.0000    0.5000    0.6667         2
+           024.Red_faced_Cormorant     1.0000    1.0000    1.0000         2
+             025.Pelagic_Cormorant     0.6667    1.0000    0.8000         2
+               026.Bronzed_Cowbird     1.0000    0.5000    0.6667         2
+                 027.Shiny_Cowbird     0.0000    0.0000    0.0000         2
+                 028.Brown_Creeper     1.0000    1.0000    1.0000         2
+                 029.American_Crow     0.0000    0.0000    0.0000         2
+                     030.Fish_Crow     0.0000    0.0000    0.0000         2
+           031.Black_billed_Cuckoo     0.5000    1.0000    0.6667         2
+               032.Mangrove_Cuckoo     1.0000    1.0000    1.0000         2
+          033.Yellow_billed_Cuckoo     0.0000    0.0000    0.0000         2
+       034.Gray_crowned_Rosy_Finch     1.0000    1.0000    1.0000         2
+                  035.Purple_Finch     1.0000    1.0000    1.0000         2
+              036.Northern_Flicker     1.0000    1.0000    1.0000         2
+            037.Acadian_Flycatcher     0.0000    0.0000    0.0000         2
+      038.Great_Crested_Flycatcher     1.0000    1.0000    1.0000         2
+              039.Least_Flycatcher     0.0000    0.0000    0.0000         2
+        040.Olive_sided_Flycatcher     1.0000    1.0000    1.0000         2
+     041.Scissor_tailed_Flycatcher     1.0000    0.5000    0.6667         2
+          042.Vermilion_Flycatcher     1.0000    1.0000    1.0000         2
+     043.Yellow_bellied_Flycatcher     0.2857    1.0000    0.4444         2
+                   044.Frigatebird     0.6667    1.0000    0.8000         2
+               045.Northern_Fulmar     1.0000    0.5000    0.6667         2
+                       046.Gadwall     1.0000    1.0000    1.0000         2
+            047.American_Goldfinch     0.5000    1.0000    0.6667         2
+            048.European_Goldfinch     1.0000    1.0000    1.0000         2
+           049.Boat_tailed_Grackle     0.6667    1.0000    0.8000         2
+                   050.Eared_Grebe     1.0000    1.0000    1.0000         2
+                  051.Horned_Grebe     1.0000    1.0000    1.0000         2
+             052.Pied_billed_Grebe     1.0000    0.5000    0.6667         2
+                 053.Western_Grebe     1.0000    1.0000    1.0000         2
+                 054.Blue_Grosbeak     1.0000    0.5000    0.6667         2
+              055.Evening_Grosbeak     1.0000    0.5000    0.6667         2
+                 056.Pine_Grosbeak     1.0000    1.0000    1.0000         2
+        057.Rose_breasted_Grosbeak     1.0000    1.0000    1.0000         2
+              058.Pigeon_Guillemot     1.0000    1.0000    1.0000         2
+               059.California_Gull     0.0000    0.0000    0.0000         2
+          060.Glaucous_winged_Gull     0.5000    0.5000    0.5000         2
+                 061.Heermann_Gull     1.0000    1.0000    1.0000         2
+                  062.Herring_Gull     0.5000    0.5000    0.5000         2
+                    063.Ivory_Gull     1.0000    1.0000    1.0000         2
+              064.Ring_billed_Gull     1.0000    1.0000    1.0000         2
+             065.Slaty_backed_Gull     0.6667    1.0000    0.8000         2
+                  066.Western_Gull     0.2500    0.5000    0.3333         2
+              067.Anna_Hummingbird     0.6667    1.0000    0.8000         2
+     068.Ruby_throated_Hummingbird     1.0000    1.0000    1.0000         2
+            069.Rufous_Hummingbird     1.0000    0.5000    0.6667         2
+               070.Green_Violetear     1.0000    1.0000    1.0000         2
+            071.Long_tailed_Jaeger     0.5000    0.5000    0.5000         2
+               072.Pomarine_Jaeger     0.5000    0.5000    0.5000         2
+                      073.Blue_Jay     1.0000    1.0000    1.0000         2
+                   074.Florida_Jay     1.0000    1.0000    1.0000         2
+                     075.Green_Jay     1.0000    1.0000    1.0000         2
+               076.Dark_eyed_Junco     1.0000    1.0000    1.0000         2
+             077.Tropical_Kingbird     1.0000    1.0000    1.0000         2
+                 078.Gray_Kingbird     1.0000    1.0000    1.0000         2
+             079.Belted_Kingfisher     0.5000    1.0000    0.6667         1
+              080.Green_Kingfisher     1.0000    1.0000    1.0000         2
+               081.Pied_Kingfisher     1.0000    1.0000    1.0000         2
+             082.Ringed_Kingfisher     1.0000    0.5000    0.6667         2
+     083.White_breasted_Kingfisher     1.0000    1.0000    1.0000         2
+          084.Red_legged_Kittiwake     1.0000    1.0000    1.0000         2
+                   085.Horned_Lark     1.0000    1.0000    1.0000         2
+                  086.Pacific_Loon     1.0000    1.0000    1.0000         2
+                       087.Mallard     1.0000    0.6667    0.8000         3
+            088.Western_Meadowlark     1.0000    1.0000    1.0000         2
+              089.Hooded_Merganser     1.0000    1.0000    1.0000         2
+        090.Red_breasted_Merganser     1.0000    1.0000    1.0000         2
+                   091.Mockingbird     0.5000    1.0000    0.6667         1
+                     092.Nighthawk     0.5000    0.3333    0.4000         3
+              093.Clark_Nutcracker     1.0000    1.0000    1.0000         2
+       094.White_breasted_Nuthatch     1.0000    1.0000    1.0000         2
+              095.Baltimore_Oriole     0.5000    0.5000    0.5000         2
+                 096.Hooded_Oriole     1.0000    1.0000    1.0000         2
+                097.Orchard_Oriole     1.0000    1.0000    1.0000         2
+                  098.Scott_Oriole     1.0000    1.0000    1.0000         2
+                      099.Ovenbird     1.0000    1.0000    1.0000         2
+                 100.Brown_Pelican     1.0000    0.5000    0.6667         2
+                 101.White_Pelican     1.0000    1.0000    1.0000         2
+            102.Western_Wood_Pewee     0.0000    0.0000    0.0000         2
+                      103.Sayornis     0.3333    1.0000    0.5000         2
+                104.American_Pipit     1.0000    1.0000    1.0000         2
+                105.Whip_poor_Will     0.6667    1.0000    0.8000         2
+                 106.Horned_Puffin     1.0000    1.0000    1.0000         2
+                  107.Common_Raven     0.6667    1.0000    0.8000         2
+            108.White_necked_Raven     1.0000    1.0000    1.0000         2
+             109.American_Redstart     1.0000    1.0000    1.0000         2
+                     110.Geococcyx     1.0000    1.0000    1.0000         2
+             111.Loggerhead_Shrike     0.5000    0.5000    0.5000         2
+             112.Great_Grey_Shrike     0.5000    0.5000    0.5000         2
+                 113.Baird_Sparrow     0.6667    1.0000    0.8000         2
+        114.Black_throated_Sparrow     1.0000    1.0000    1.0000         2
+                115.Brewer_Sparrow     1.0000    1.0000    1.0000         2
+              116.Chipping_Sparrow     1.0000    0.5000    0.6667         2
+          117.Clay_colored_Sparrow     1.0000    1.0000    1.0000         2
+                 118.House_Sparrow     1.0000    1.0000    1.0000         2
+                 119.Field_Sparrow     1.0000    1.0000    1.0000         2
+                   120.Fox_Sparrow     1.0000    0.5000    0.6667         2
+           121.Grasshopper_Sparrow     1.0000    1.0000    1.0000         2
+                122.Harris_Sparrow     1.0000    1.0000    1.0000         2
+               123.Henslow_Sparrow     0.0000    0.0000    0.0000         2
+              124.Le_Conte_Sparrow     0.5000    1.0000    0.6667         2
+               125.Lincoln_Sparrow     1.0000    0.5000    0.6667         2
+   126.Nelson_Sharp_tailed_Sparrow     1.0000    1.0000    1.0000         2
+              127.Savannah_Sparrow     0.2000    0.5000    0.2857         2
+               128.Seaside_Sparrow     1.0000    1.0000    1.0000         2
+                  129.Song_Sparrow     1.0000    0.5000    0.6667         2
+                  130.Tree_Sparrow     0.6667    1.0000    0.8000         2
+                131.Vesper_Sparrow     0.0000    0.0000    0.0000         2
+         132.White_crowned_Sparrow     0.6667    1.0000    0.8000         2
+        133.White_throated_Sparrow     1.0000    0.5000    0.6667         2
+          134.Cape_Glossy_Starling     1.0000    1.0000    1.0000         2
+                  135.Bank_Swallow     1.0000    1.0000    1.0000         2
+                  136.Barn_Swallow     1.0000    1.0000    1.0000         2
+                 137.Cliff_Swallow     1.0000    0.5000    0.6667         2
+                  138.Tree_Swallow     1.0000    1.0000    1.0000         2
+               139.Scarlet_Tanager     1.0000    1.0000    1.0000         2
+                140.Summer_Tanager     1.0000    1.0000    1.0000         2
+                    141.Artic_Tern     0.3333    1.0000    0.5000         2
+                    142.Black_Tern     1.0000    1.0000    1.0000         2
+                  143.Caspian_Tern     0.6667    1.0000    0.8000         2
+                   144.Common_Tern     0.0000    0.0000    0.0000         2
+                  145.Elegant_Tern     0.5000    0.5000    0.5000         2
+                 146.Forsters_Tern     0.0000    0.0000    0.0000         2
+                    147.Least_Tern     0.0000    0.0000    0.0000         2
+           148.Green_tailed_Towhee     1.0000    1.0000    1.0000         2
+                149.Brown_Thrasher     1.0000    0.5000    0.6667         2
+                 150.Sage_Thrasher     0.5000    1.0000    0.6667         2
+            151.Black_capped_Vireo     1.0000    1.0000    1.0000         2
+             152.Blue_headed_Vireo     1.0000    1.0000    1.0000         2
+            153.Philadelphia_Vireo     0.4000    1.0000    0.5714         2
+                154.Red_eyed_Vireo     1.0000    1.0000    1.0000         2
+                155.Warbling_Vireo     1.0000    0.5000    0.6667         2
+              156.White_eyed_Vireo     1.0000    0.5000    0.6667         2
+         157.Yellow_throated_Vireo     0.6667    1.0000    0.8000         2
+          158.Bay_breasted_Warbler     1.0000    1.0000    1.0000         2
+       159.Black_and_white_Warbler     1.0000    1.0000    1.0000         2
+   160.Black_throated_Blue_Warbler     1.0000    1.0000    1.0000         2
+           161.Blue_winged_Warbler     1.0000    1.0000    1.0000         2
+                162.Canada_Warbler     1.0000    1.0000    1.0000         2
+              163.Cape_May_Warbler     0.6667    1.0000    0.8000         2
+              164.Cerulean_Warbler     1.0000    1.0000    1.0000         2
+        165.Chestnut_sided_Warbler     1.0000    1.0000    1.0000         2
+         166.Golden_winged_Warbler     1.0000    1.0000    1.0000         2
+                167.Hooded_Warbler     1.0000    1.0000    1.0000         2
+              168.Kentucky_Warbler     0.6667    1.0000    0.8000         2
+              169.Magnolia_Warbler     0.6667    1.0000    0.8000         2
+              170.Mourning_Warbler     0.5000    0.5000    0.5000         2
+                171.Myrtle_Warbler     1.0000    1.0000    1.0000         2
+             172.Nashville_Warbler     1.0000    1.0000    1.0000         2
+        173.Orange_crowned_Warbler     0.5000    0.5000    0.5000         2
+                  174.Palm_Warbler     1.0000    0.5000    0.6667         2
+                  175.Pine_Warbler     1.0000    1.0000    1.0000         2
+               176.Prairie_Warbler     1.0000    0.5000    0.6667         2
+          177.Prothonotary_Warbler     1.0000    1.0000    1.0000         2
+              178.Swainson_Warbler     0.6667    1.0000    0.8000         2
+             179.Tennessee_Warbler     0.0000    0.0000    0.0000         2
+                180.Wilson_Warbler     0.6667    1.0000    0.8000         2
+           181.Worm_eating_Warbler     1.0000    0.5000    0.6667         2
+                182.Yellow_Warbler     0.0000    0.0000    0.0000         2
+          183.Northern_Waterthrush     1.0000    1.0000    1.0000         2
+         184.Louisiana_Waterthrush     1.0000    1.0000    1.0000         2
+              185.Bohemian_Waxwing     0.6667    1.0000    0.8000         2
+                 186.Cedar_Waxwing     1.0000    0.5000    0.6667         2
+187.American_Three_toed_Woodpecker     1.0000    1.0000    1.0000         2
+           188.Pileated_Woodpecker     1.0000    1.0000    1.0000         2
+        189.Red_bellied_Woodpecker     0.6667    1.0000    0.8000         2
+       190.Red_cockaded_Woodpecker     0.0000    0.0000    0.0000         2
+         191.Red_headed_Woodpecker     1.0000    0.5000    0.6667         2
+              192.Downy_Woodpecker     0.5000    1.0000    0.6667         2
+                   193.Bewick_Wren     1.0000    1.0000    1.0000         2
+                   194.Cactus_Wren     1.0000    1.0000    1.0000         2
+                 195.Carolina_Wren     1.0000    1.0000    1.0000         2
+                    196.House_Wren     1.0000    1.0000    1.0000         2
+                    197.Marsh_Wren     1.0000    1.0000    1.0000         2
+                     198.Rock_Wren     1.0000    1.0000    1.0000         2
+                   199.Winter_Wren     1.0000    1.0000    1.0000         2
+           200.Common_Yellowthroat     1.0000    0.5000    0.6667         2
+
+                          accuracy                         0.8141       398
+                         macro avg     0.8132    0.8125    0.7908       398
+                      weighted avg     0.8185    0.8141    0.7945       398
+
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
