@@ -67,20 +67,23 @@ A transfer learning pipeline for 200-class bird species recognition using the CU
 ---
 
 ## Repository Structure
-
-```
 deep-learning/
+├── bird-classification/
+│   ├── Fine_grained_classification.ipynb
+│   ├── Image_classification_inception_v3.ipynb
+│   ├── Confusion_matrix.png
+│   ├── Bird_Classification_Report.docx
+│   ├── Pre-trained_Model_report.pdf
+│   ├── expected_output_pre-trained_model.png
+│   └── saved_model/
+│
 ├── lstm-text-generation/
-│   ├── train.py
-│   ├── generate.py
+│   ├── Language_model.ipynb
+│   ├── LSTM_Text_Generation_Report.docx
 │   └── saved_model/
 │       └── lstm_model.pth
-├── bird-classification/
-│   ├── train.py
-│   ├── evaluate.py
-│   └── saved_model/
+│
 └── README.md
-```
 
 ## Requirements
 
